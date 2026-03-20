@@ -1,1 +1,8 @@
+# 1. 设置节点地址（替换为你的 Infura/Alchemy Key）
+export ETH_WS_URL="wss://mainnet.infura.io/ws/v3/e5e5e354a01547b9b111b71a10d23e9c"
 
+# 2. 运行代码（默认监听 USDT 合约）
+go run main.go
+
+# 可选：指定其他合约（比如 USDC）
+go run main.go --contract 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
